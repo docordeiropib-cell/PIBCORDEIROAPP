@@ -101,7 +101,7 @@ export default function ContactScreen() {
           ) : churchInfo ? (
             <View style={styles.infoCard}>
               <View style={styles.churchHeader}>
-                <Ionicons name="church" size={32} color={colors.primary} />
+                <Ionicons name="business" size={32} color={colors.primary} />
                 <Text style={styles.churchName}>{churchInfo.name}</Text>
               </View>
               
