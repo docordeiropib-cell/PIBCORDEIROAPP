@@ -11,6 +11,7 @@ import AgendaScreen from './screens/AgendaScreen';
 import MinistriesScreen from './screens/MinistriesScreen';
 import MediaScreen from './screens/MediaScreen';
 import PrayerScreen from './screens/PrayerScreen';
+import ContactScreen from './screens/ContactScreen';
 
 const Tab = createBottomTabNavigator();
 
