@@ -75,6 +75,7 @@ export default function App() {
           <Tab.Screen name="Ministérios" component={MinistriesScreen} />
           <Tab.Screen name="Mídia" component={MediaScreen} />
           <Tab.Screen name="Oração" component={PrayerScreen} />
+          <Tab.Screen name="Contato" component={ContactScreen} />
         </Tab.Navigator>
       </NavigationContainer>
     </SafeAreaProvider>
