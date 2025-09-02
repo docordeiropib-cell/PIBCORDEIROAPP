@@ -89,7 +89,7 @@ export default function HomeScreen() {
         {/* Header com Logo */}
         <View style={styles.header}>
           <View style={styles.logoContainer}>
-            <Ionicons name="church" size={32} color={colors.white} />
+            <Ionicons name="business" size={32} color={colors.white} />
             <Text style={styles.churchName}>PIB do Cordeiro</Text>
           </View>
           <Text style={styles.subtitle}>São João dos Patos - MA</Text>
