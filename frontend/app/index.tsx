@@ -45,6 +45,8 @@ export default function App() {
                 iconName = focused ? 'play-circle' : 'play-circle-outline';
               } else if (route.name === 'Oração') {
                 iconName = focused ? 'heart' : 'heart-outline';
+              } else if (route.name === 'Contato') {
+                iconName = focused ? 'location' : 'location-outline';
               } else {
                 iconName = 'help-outline';
               }
